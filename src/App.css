@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  background:  #8B5DD5;
+}
+
+h1{
+  color: white;
+  background-color: #FF9AF1;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+.appTareas{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.tareasListaPrincipal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #FF9AF1;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+
+}

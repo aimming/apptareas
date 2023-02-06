@@ -1,0 +1,36 @@
+.tareaFormulario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tareaInput{
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 17px 32px 14px 16px;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid white;
+    outline: none;
+    z-index: 0;
+}
+
+
+.tareaBoton{
+    padding: 16px;
+    font-size:18px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: #00C2C6;
+    color: white;
+    text-transform: capitalize;
+}
+ 
+.tareaBoton:hover{
+    background-color: #008C90;
+}
